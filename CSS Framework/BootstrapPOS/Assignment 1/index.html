@@ -40,7 +40,7 @@
                         <a class="nav-link" href="order.html">Orders</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="item.html">
                             Items
                         </a>
                     </li>
@@ -72,17 +72,27 @@
         <div class="rounded-3 p-3" style="background-color: #DDE4F0; margin-top: 30px; height: 85vh">
             <h1 class="text-lg-start mb-3"><i class="fas fa-users"></i>Customer</h1>
 
-            <div class="row align-items-center pb-3 justify-content-between">
+            <div class="row align-items-start pb-3">
                 <div class="col-4">
+                    <h4>Customer Search</h4>
                     <div class="input-group mb-3 style=height: 10px">
-                        <input type="text" class="form-control" placeholder="Search Customer" aria-label="Recipient's username" aria-describedby="button-addon2">
-                        <button class="btn btn-success" type="button" id="button-addon2"><i class="bi bi-search m-2"></i>Search</button>
+                        <input type="text" class="form-control" placeholder="Input Name/NIC/Tp Here" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-success" type="button" id="button-addon2">
+                            <i class="bi bi-search m-2"></i>Search</button>
                     </div>
                 </div>
+
                 <div>
                     <button class="btn-danger">Delete</button>
                     <button class="btn-primary">Details</button>
                     <button class="btn-success">Clear</button>
+                </div>
+            </div>
+
+            <div class="row align-items-end">
+                <div class="col-5">
+                    <button type="button" class="btn btn-primary btn-sm">New Customer</button>
+                    <button type="button" class="btn btn-secondary btn-sm">View All Customers</button>
                 </div>
             </div>
 
